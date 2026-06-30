@@ -17,7 +17,7 @@ export function WhyUs() {
         <div className="aspect-[4/3] overflow-hidden rounded-2xl border border-slate-200 shadow-lg">
           <img
             src="/images/about-team.jpg"
-            alt="Shifting Solutions removals team with moving equipment"
+            alt="Happy customers relaxing at home after a safe and stress-free Shifting Solutions removal"
             className="h-full w-full object-cover"
             width={700}
             height={525}

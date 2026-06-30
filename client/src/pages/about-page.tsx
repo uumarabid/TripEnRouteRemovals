@@ -32,7 +32,7 @@ export function AboutPage() {
           <div className="aspect-[4/3] overflow-hidden rounded-2xl border border-slate-200 shadow-lg">
             <img
               src="/images/about-team.jpg"
-              alt="Professional removals team at Shifting Solutions"
+              alt="Couple relaxing in their new home after a stress-free Shifting Solutions move"
               className="h-full w-full object-cover"
               width={700}
               height={525}

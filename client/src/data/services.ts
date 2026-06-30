@@ -23,7 +23,7 @@ export const services: Service[] = [
       'Flexible scheduling',
     ],
     image: '/images/house-removals.jpg',
-    imageAlt: 'Professional movers carrying boxes into a new home',
+    imageAlt: 'Shifting Solutions movers unloading furniture from a branded removal truck outside a home',
   },
   {
     slug: 'office',
@@ -39,7 +39,7 @@ export const services: Service[] = [
       'Nationwide commercial coverage',
     ],
     image: '/images/office-removals.jpg',
-    imageAlt: 'Office furniture and equipment being moved professionally',
+    imageAlt: 'Shifting Solutions team packing office equipment during a commercial relocation',
   },
   {
     slug: 'student',
@@ -55,7 +55,7 @@ export const services: Service[] = [
       'UK-wide university towns',
     ],
     image: '/images/student-removals.jpg',
-    imageAlt: 'Students moving belongings with professional help',
+    imageAlt: 'Students loading belongings into a Shifting Solutions removal van outside university accommodation',
   },
   {
     slug: 'furniture',
@@ -71,7 +71,7 @@ export const services: Service[] = [
       'Stair and access expertise',
     ],
     image: '/images/furniture-removals.jpg',
-    imageAlt: 'Wrapped furniture being carefully transported',
+    imageAlt: 'Shifting Solutions mover wrapping and protecting furniture with blankets and straps before transport',
   },
   {
     slug: 'piano',
@@ -103,7 +103,7 @@ export const services: Service[] = [
       'Affordable hourly rates',
     ],
     image: '/images/man-and-van.jpg',
-    imageAlt: 'Removal van with professional driver ready to help',
+    imageAlt: 'Shifting Solutions man and van driver beside a branded removal van with moving equipment',
   },
 ]
 

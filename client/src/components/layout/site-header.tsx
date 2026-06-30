@@ -1,28 +1,29 @@
-import { useState } from 'react'
-import { Link, NavLink } from 'react-router-dom'
-import { Menu, X, MapPin, MessageCircle } from 'lucide-react'
-import { WHATSAPP_URL } from '../../lib/contact'
+import { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { Menu, X, MapPin, MessageCircle } from "lucide-react";
+import { WHATSAPP_URL } from "../../lib/contact";
+import { COMPANY_LOGO_ALT, COMPANY_LOGO_SRC, COMPANY_NAME } from "../../lib/branding";
 
 const navLinks = [
-  { to: '/', label: 'Home' },
-  { to: '/services', label: 'Services' },
-  { to: '/coverage', label: 'Coverage' },
-  { to: '/faq', label: 'FAQ' },
-  { to: '/blog', label: 'Blog' },
-  { to: '/about', label: 'About' },
-  { to: '/contact', label: 'Contact' },
-]
+  { to: "/", label: "Home" },
+  { to: "/services", label: "Services" },
+  { to: "/coverage", label: "Coverage" },
+  { to: "/faq", label: "FAQ" },
+  { to: "/blog", label: "Blog" },
+  { to: "/about", label: "About" },
+  { to: "/contact", label: "Contact" },
+];
 
 export function SiteHeader() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleToggleMenu = () => setIsMenuOpen((open) => !open)
-  const handleCloseMenu = () => setIsMenuOpen(false)
+  const handleToggleMenu = () => setIsMenuOpen((open) => !open);
+  const handleCloseMenu = () => setIsMenuOpen(false);
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>
     `rounded-lg px-3 py-2 text-sm font-medium transition ${
-      isActive ? 'bg-teal-50 text-teal-700' : 'text-slate-700 hover:bg-slate-100'
-    }`
+      isActive ? "bg-teal-50 text-teal-700" : "text-slate-700 hover:bg-slate-100"
+    }`;
 
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
@@ -33,14 +34,15 @@ export function SiteHeader() {
         </div>
       </div>
 
-      <div className="section-container flex h-16 items-center justify-between gap-4">
-        <Link
-          to="/"
-          className="font-display text-lg font-bold text-slate-900 sm:text-xl"
-          onClick={handleCloseMenu}
-        >
-          Trip En Route
-          <span className="block text-xs font-medium text-teal-600">Removals</span>
+      <div className="section-container flex min-h-24 items-center justify-between gap-4 py-2 sm:min-h-28">
+        <Link to="/" className="flex shrink-0 items-center" onClick={handleCloseMenu} aria-label={`${COMPANY_NAME} home`}>
+          <img
+            src={COMPANY_LOGO_SRC}
+            alt={COMPANY_LOGO_ALT}
+            className="h-20 w-auto max-w-[260px] object-contain sm:h-24 sm:max-w-[300px]"
+            width={300}
+            height={96}
+          />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Main navigation">
@@ -67,7 +69,7 @@ export function SiteHeader() {
           <button
             type="button"
             className="rounded-lg p-2 text-slate-700 hover:bg-slate-100 lg:hidden"
-            aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             aria-expanded={isMenuOpen}
             onClick={handleToggleMenu}
           >
@@ -77,18 +79,11 @@ export function SiteHeader() {
       </div>
 
       {isMenuOpen && (
-        <nav
-          className="border-t border-slate-200 bg-white px-4 py-4 lg:hidden"
-          aria-label="Mobile navigation"
-        >
+        <nav className="border-t border-slate-200 bg-white px-4 py-4 lg:hidden" aria-label="Mobile navigation">
           <ul className="flex flex-col gap-1">
             {navLinks.map((link) => (
               <li key={link.to}>
-                <NavLink
-                  to={link.to}
-                  className={linkClass}
-                  onClick={handleCloseMenu}
-                >
+                <NavLink to={link.to} className={linkClass} onClick={handleCloseMenu}>
                   {link.label}
                 </NavLink>
               </li>
@@ -102,5 +97,5 @@ export function SiteHeader() {
         </nav>
       )}
     </header>
-  )
+  );
 }

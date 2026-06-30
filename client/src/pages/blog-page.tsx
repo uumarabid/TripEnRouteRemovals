@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom'
-import { Calendar } from 'lucide-react'
-import { PageHero } from '../components/layout/page-hero'
-import { MotionSection } from '../components/ui/motion-section'
-import { blogPosts } from '../data/blog'
+import { Link } from "react-router-dom";
+import { Calendar } from "lucide-react";
+import { PageHero } from "../components/layout/page-hero";
+import { MotionSection } from "../components/ui/motion-section";
+import { blogPosts } from "../data/blog";
 
 export function BlogPage() {
   return (
@@ -10,10 +10,7 @@ export function BlogPage() {
       <PageHero
         title="Removals blog"
         subtitle="Practical tips for house moves, office relocations, and specialist removals across the UK."
-        breadcrumb={[
-          { label: 'Home', to: '/' },
-          { label: 'Blog' },
-        ]}
+        breadcrumb={[{ label: "Home", to: "/" }, { label: "Blog" }]}
       />
       <section className="section-container py-12 md:py-16">
         <div className="grid gap-8 md:grid-cols-2">
@@ -31,22 +28,16 @@ export function BlogPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <time
-                    dateTime={post.date}
-                    className="flex items-center gap-2 text-sm text-slate-500"
-                  >
+                  <time dateTime={post.date} className="flex items-center gap-2 text-sm text-slate-500">
                     <Calendar className="h-4 w-4" aria-hidden="true" />
-                    {new Date(post.date).toLocaleDateString('en-GB', {
-                      day: 'numeric',
-                      month: 'long',
-                      year: 'numeric',
+                    {new Date(post.date).toLocaleDateString("en-GB", {
+                      day: "numeric",
+                      month: "long",
+                      year: "numeric",
                     })}
                   </time>
                   <h2 className="mt-3 font-display text-xl font-semibold text-slate-900">
-                    <Link
-                      to={`/blog/${post.slug}`}
-                      className="transition hover:text-teal-700"
-                    >
+                    <Link to={`/blog/${post.slug}`} className="transition hover:text-teal-700">
                       {post.title}
                     </Link>
                   </h2>
@@ -64,5 +55,5 @@ export function BlogPage() {
         </div>
       </section>
     </>
-  )
+  );
 }

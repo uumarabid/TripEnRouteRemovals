@@ -50,7 +50,7 @@ export function HeroSection() {
           <div className="aspect-[4/3] overflow-hidden rounded-2xl border border-slate-200 shadow-xl">
             <img
               src="/images/hero.jpg"
-              alt="Professional removal team loading a van for a nationwide move"
+              alt="Shifting Solutions branded removal van with professional movers on a residential street"
               className="h-full w-full object-cover"
               width={800}
               height={600}

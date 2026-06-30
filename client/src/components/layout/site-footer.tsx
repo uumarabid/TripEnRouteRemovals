@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Mail, MapPin, Phone } from 'lucide-react'
 import { ADDRESS_LINES, EMAIL, MAILTO_URL, PHONE_DISPLAY, WHATSAPP_URL } from '../../lib/contact'
+import { COMPANY_LOGO_ALT, COMPANY_LOGO_SRC } from '../../lib/branding'
 import { services } from '../../data/services'
 import { coverageRegions } from '../../data/coverage'
 
@@ -9,7 +10,13 @@ export function SiteFooter() {
     <footer className="border-t border-slate-200 bg-slate-900 text-slate-300">
       <div className="section-container grid gap-10 py-12 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <p className="font-display text-xl font-bold text-white">Shifting Solutions</p>
+          <img
+            src={COMPANY_LOGO_SRC}
+            alt={COMPANY_LOGO_ALT}
+            className="h-20 w-auto max-w-[260px] rounded-lg bg-white p-2 object-contain sm:h-24 sm:max-w-[300px]"
+            width={300}
+            height={96}
+          />
           <p className="mt-3 text-sm leading-relaxed">
             Professional, affordable removals nationwide. Based in London, trusted across the UK.
           </p>
