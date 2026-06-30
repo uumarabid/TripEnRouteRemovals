@@ -9,7 +9,7 @@ export function CoveragePage() {
     <>
       <PageHero
         title="Nationwide UK coverage"
-        subtitle="Trip En Route Removals serves customers across the United Kingdom — from our London base to every major region."
+        subtitle="Shifting Solutions serves customers across the United Kingdom — from our London base to every major region."
         breadcrumb={[
           { label: 'Home', to: '/' },
           { label: 'Coverage' },

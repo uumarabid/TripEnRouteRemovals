@@ -15,7 +15,7 @@ const testimonials = [
   {
     name: 'Priya K.',
     location: 'Student move, Bristol',
-    text: 'Quick WhatsApp quote and a smooth student move. Would definitely use Trip En Route again.',
+    text: 'Quick WhatsApp quote and a smooth student move. Would definitely use Shifting Solutions again.',
   },
 ]
 

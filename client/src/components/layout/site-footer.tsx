@@ -9,7 +9,7 @@ export function SiteFooter() {
     <footer className="border-t border-slate-200 bg-slate-900 text-slate-300">
       <div className="section-container grid gap-10 py-12 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <p className="font-display text-xl font-bold text-white">Trip En Route Removals</p>
+          <p className="font-display text-xl font-bold text-white">Shifting Solutions</p>
           <p className="mt-3 text-sm leading-relaxed">
             Professional, affordable removals nationwide. Based in London, trusted across the UK.
           </p>
@@ -89,7 +89,7 @@ export function SiteFooter() {
 
       <div className="border-t border-slate-800">
         <div className="section-container flex flex-col items-center justify-between gap-2 py-6 text-xs sm:flex-row">
-          <p>© {new Date().getFullYear()} Trip En Route Removals. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Shifting Solutions. All rights reserved.</p>
           <p>Nationwide UK removals — professional & affordable</p>
         </div>
       </div>

@@ -15,7 +15,7 @@ export const services: Service[] = [
     shortDescription:
       'Full home moves planned with care — packing, transport, and unpacking support nationwide.',
     description:
-      'Moving house does not have to be overwhelming. Trip En Route Removals handles everything from careful packing to secure transport and optional unpacking. Our trained team works to your timeline so you can settle into your new home with confidence, whether you are moving across town or across the UK.',
+      'Moving house does not have to be overwhelming. Shifting Solutions handles everything from careful packing to secure transport and optional unpacking. Our trained team works to your timeline so you can settle into your new home with confidence, whether you are moving across town or across the UK.',
     highlights: [
       'Full packing and unpacking options',
       'Furniture dismantling and reassembly',

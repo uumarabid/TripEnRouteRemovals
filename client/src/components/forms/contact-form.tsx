@@ -73,7 +73,7 @@ export function ContactForm() {
       >
         <h3 className="font-display text-xl font-semibold text-teal-900">Thank you</h3>
         <p className="mt-3 text-slate-700">
-          Thank you for choosing Trip En Route Removals. Our team will contact you shortly with
+          Thank you for choosing Shifting Solutions. Our team will contact you shortly with
           your request.
         </p>
         <button

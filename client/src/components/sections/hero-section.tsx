@@ -17,7 +17,7 @@ export function HeroSection() {
             <span className="text-teal-600">wherever you are</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg text-slate-600">
-            Trip En Route Removals delivers affordable, honest moving services across the United
+            Shifting Solutions delivers affordable, honest moving services across the United
             Kingdom — house, office, student, piano, furniture, and man & van.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">

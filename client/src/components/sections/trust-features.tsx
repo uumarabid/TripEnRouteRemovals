@@ -33,7 +33,7 @@ export function TrustFeatures() {
     <MotionSection className="section-container py-16 md:py-20">
       <div className="text-center">
         <h2 className="font-display text-3xl font-bold text-slate-900 md:text-4xl">
-          Why choose Trip En Route
+          Why choose Shifting Solutions
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-slate-600">
           Nationwide coverage backed by professional crews, flexible booking, and honest pricing.

@@ -9,13 +9,13 @@ export const faqItems: FaqItem[] = [
     id: 'nationwide',
     question: 'Do you cover removals nationwide across the UK?',
     answer:
-      'Yes. Trip En Route Removals operates nationwide. We are based in London and regularly complete moves throughout England, Scotland, Wales, and Northern Ireland. Contact us with your locations for a tailored quote.',
+      'Yes. Shifting Solutions operates nationwide. We are based in London and regularly complete moves throughout England, Scotland, Wales, and Northern Ireland. Contact us with your locations for a tailored quote.',
   },
   {
     id: 'quote',
     question: 'How do I get a free quote?',
     answer:
-      'Use our contact form, email Travel@tripenroute.co.uk, or message us on WhatsApp. Share your move dates, addresses, and what needs moving — we will respond with a clear, no-obligation estimate.',
+      'Use our contact form, email info@shiftingsolutions.co.uk, or message us on WhatsApp. Share your move dates, addresses, and what needs moving — we will respond with a clear, no-obligation estimate.',
   },
   {
     id: 'insurance',

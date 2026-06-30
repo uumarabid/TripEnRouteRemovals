@@ -17,7 +17,7 @@ export function WhyUs() {
         <div className="aspect-[4/3] overflow-hidden rounded-2xl border border-slate-200 shadow-lg">
           <img
             src="/images/about-team.jpg"
-            alt="Trip En Route removals team with moving equipment"
+            alt="Shifting Solutions removals team with moving equipment"
             className="h-full w-full object-cover"
             width={700}
             height={525}
@@ -28,7 +28,7 @@ export function WhyUs() {
             Removals done properly, nationwide
           </h2>
           <p className="mt-4 text-slate-600">
-            Whether you are moving locally or cross-country, Trip En Route Removals brings
+            Whether you are moving locally or cross-country, Shifting Solutions brings
             experience, care, and honest pricing to every job. We plan with you from the first box
             to the final unload.
           </p>

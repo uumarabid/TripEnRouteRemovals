@@ -1,6 +1,6 @@
-# Trip En Route Removals
+# Shifting Solutions
 
-Full-stack marketing website for **Trip En Route Removals** — professional nationwide UK removals (house, office, student, furniture, piano, and man & van).
+Full-stack marketing website for **Shifting Solutions** — professional nationwide UK removals (house, office, student, furniture, piano, and man & van).
 
 Built with **React** (Vite), **Express**, and **TypeScript**, inspired by removals industry layouts with a distinct light theme (teal & amber).
 
@@ -9,16 +9,16 @@ Built with **React** (Vite), **Express**, and **TypeScript**, inspired by remova
 - Multi-page site: Home, Services (6 detail pages), Coverage, FAQ, Blog, About, Contact
 - Light UI with Tailwind CSS and Framer Motion
 - **WhatsApp-first contact:** homepage phone and floating button open WhatsApp chat
-- Contact form emails **Travel@tripenroute.co.uk** via SMTP
+- Contact form emails **info@shiftingsolutions.co.uk** via SMTP
 - Nationwide UK positioning with regional coverage page
 
 ## Contact details (site-wide)
 
-| | |
-|---|---|
-| Phone / WhatsApp | +44 2036 335494 |
-| Email | Travel@tripenroute.co.uk |
-| Address | 123 Mitcham Road, Tooting, London SW17 9PE |
+|                  |                                            |
+| ---------------- | ------------------------------------------ |
+| Phone / WhatsApp | 0800 772 0036                              |
+| Email            | info@shiftingsolutions.co.uk               |
+| Address          | 123 Mitcham Road, Tooting, London SW17 9PE |
 
 ## Prerequisites
 
@@ -47,8 +47,8 @@ Built with **React** (Vite), **Express**, and **TypeScript**, inspired by remova
    SMTP_PORT=587
    SMTP_USER=your-smtp-user
    SMTP_PASS=your-smtp-password
-   CONTACT_TO=Travel@tripenroute.co.uk
-   CONTACT_FROM="Trip En Route Website" <noreply@yourdomain.com>
+   CONTACT_TO=info@shiftingsolutions.co.uk
+   CONTACT_FROM="Shifting Solutions Website" <noreply@yourdomain.com>
    CLIENT_ORIGIN=http://localhost:5173
    ```
 
@@ -63,11 +63,11 @@ Built with **React** (Vite), **Express**, and **TypeScript**, inspired by remova
 
 ## Scripts
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start Vite client and Express API with hot reload |
-| `npm run build` | Build client (`client/dist`) and compile server |
-| `npm start` | Run production server (serves API + built client when `client/dist` exists) |
+| Command         | Description                                                                 |
+| --------------- | --------------------------------------------------------------------------- |
+| `npm run dev`   | Start Vite client and Express API with hot reload                           |
+| `npm run build` | Build client (`client/dist`) and compile server                             |
+| `npm start`     | Run production server (serves API + built client when `client/dist` exists) |
 
 ## Project structure
 
@@ -101,7 +101,7 @@ Example body:
 
 Phone CTAs use:
 
-`https://wa.me/442036335494`
+`https://wa.me/448007720036`
 
 The floating bottom-right button shows **Contact us** and **WhatsApp** on hover.
 
@@ -120,4 +120,4 @@ The Express server serves the built React app from `client/dist` when present, p
 
 ## License
 
-Private — Trip En Route Removals.
+Private — Shifting Solutions.

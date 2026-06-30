@@ -21,7 +21,7 @@ const getTransporter = () => {
 
 const formatContactEmail = (data: ContactInput) => {
   const lines = [
-    'New contact form submission — Trip En Route Removals',
+    'New contact form submission — Shifting Solutions',
     '',
     `Name: ${data.firstName} ${data.lastName}`,
     `Email: ${data.email}`,
@@ -42,9 +42,9 @@ export const sendContactEmail = async (data: ContactInput) => {
     throw new Error('SMTP is not configured. Set SMTP_HOST, SMTP_USER, and SMTP_PASS.')
   }
 
-  const to = process.env.CONTACT_TO ?? 'Travel@tripenroute.co.uk'
+  const to = process.env.CONTACT_TO ?? 'info@shiftingsolutions.co.uk'
   const from =
-    process.env.CONTACT_FROM ?? '"Trip En Route Website" <noreply@tripenroute.co.uk>'
+    process.env.CONTACT_FROM ?? '"Shifting Solutions Website" <noreply@shiftingsolutions.co.uk>'
 
   await transporter.sendMail({
     from,

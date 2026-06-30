@@ -21,7 +21,7 @@ export const blogPosts: BlogPost[] = [
       'A successful house move starts weeks before the van arrives. Begin by decluttering room by room — fewer items means lower cost and less stress on moving day.',
       'Book your removals company early, especially if you are moving at month-end or during school holidays. Confirm access at both properties, parking permits, and whether you need packing help.',
       'Label boxes by room and mark fragile items clearly. Keep essentials — documents, medication, phone chargers — in a separate bag you carry yourself.',
-      'On moving day, walk through both properties with your removals team. Trip En Route Removals will handle the heavy work so you can focus on settling in.',
+      'On moving day, walk through both properties with your removals team. Shifting Solutions will handle the heavy work so you can focus on settling in.',
     ],
   },
   {
@@ -35,7 +35,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       'Office moves fail when planning starts too late. Assign a move coordinator, inventory equipment, and map the new floor plan before packing begins.',
       'Consider evening or weekend moves to protect productivity. IT and telecoms should be scheduled with your removals timeline in mind.',
-      'Communicate clearly with staff about what they need to pack personally versus what the removals team will handle. Trip En Route provides structured commercial moves nationwide.',
+      'Communicate clearly with staff about what they need to pack personally versus what the removals team will handle. Shifting Solutions provides structured commercial moves nationwide.',
     ],
   },
   {
@@ -49,7 +49,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       'Student moves are often smaller but still awkward — think desks, kitchenware, and seasonal clothing across multiple trips.',
       'Share a van with housemates when dates align, or book a man and van for a single efficient run. Avoid overloading cars with heavy textbooks and furniture.',
-      'Book early before university towns get busy. Trip En Route offers student-friendly pricing and flexible scheduling across UK university cities.',
+      'Book early before university towns get busy. Shifting Solutions offers student-friendly pricing and flexible scheduling across UK university cities.',
     ],
   },
   {
@@ -63,7 +63,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       'Pianos are heavy, delicate, and easily damaged by amateur moves. Internal mechanisms, legs, and finishes all require careful handling.',
       'Professional piano movers use skids, straps, and padding designed for the job. They assess stairs, doorways, and turns before lifting a single inch.',
-      'Trip En Route piano removals are available nationwide — contact us with your piano type and access details for an accurate quote.',
+      'Shifting Solutions piano removals are available nationwide — contact us with your piano type and access details for an accurate quote.',
     ],
   },
 ]
